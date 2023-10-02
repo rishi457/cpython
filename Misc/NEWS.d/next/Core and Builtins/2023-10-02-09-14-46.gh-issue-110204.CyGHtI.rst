@@ -1,0 +1,17 @@
+Version X.X.X (Release Date)
+
+- Added a new feature to the pysqlite2 package: 
+  - Introduced `custom_function` in the `pysqlite2/__init__.py` module to demonstrate package usage.
+  - `custom_function` connects to an in-memory SQLite database, creates a sample table, inserts records, and retrieves data.
+  - Provides a practical example for developers to understand and utilize the pysqlite2 package effectively.
+- Improved code formatting and documentation:
+  - The code has been formatted according to PEP 8 style conventions for better readability and maintainability.
+  - Updated the module's comments to include essential information about the package, including licensing terms and permissions.
+- Enhanced version information:
+  - Constants `__version__` and `__sqlite_version__` have been added to provide version details for SQLite and pysqlite2.
+- Deprecated names handling:
+  - The mechanism for handling deprecated names remains intact, issuing warnings and providing backward compatibility.
+- Maintained consistent symbol exports:
+  - The code exports symbols from the `sqlite3.dbapi2` module as `__all__` to ensure a clean and concise interface for users.
+
+These changes collectively improve the pysqlite2 package by offering a practical example of usage while maintaining adherence to Python coding conventions and best practices.
